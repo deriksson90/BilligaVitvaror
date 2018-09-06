@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilligaVitvaror", "BilligaVitvaror\BilligaVitvaror.csproj", "{A668E568-9E1A-48AF-AF94-E17177D48E04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilligaVitvaror.Tests", "BilligaVitvaror.Tests\BilligaVitvaror.Tests.csproj", "{058CCB62-C698-43D8-8656-90901AEB3DDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A668E568-9E1A-48AF-AF94-E17177D48E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A668E568-9E1A-48AF-AF94-E17177D48E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A668E568-9E1A-48AF-AF94-E17177D48E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A668E568-9E1A-48AF-AF94-E17177D48E04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{058CCB62-C698-43D8-8656-90901AEB3DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058CCB62-C698-43D8-8656-90901AEB3DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058CCB62-C698-43D8-8656-90901AEB3DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058CCB62-C698-43D8-8656-90901AEB3DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {702EE424-669C-46A3-8062-3D77F84231AA}
+	EndGlobalSection
+EndGlobal
