@@ -1,0 +1,20 @@
+﻿@model BilligaVitvaror.ViewModelOrders.OrdersViewModel
+
+
+@{
+    ViewBag.Title = "Orders";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Customers.Name </h2>
+
+<ul>
+
+    @foreach (var customer in Model.Orders)
+    {
+        <li>
+            @customer.Name
+        </li>
+    }
+
+</ul>
